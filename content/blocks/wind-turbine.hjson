@@ -1,0 +1,14 @@
+type: SolarGenerator
+name: Wind Turbine
+description: the rotor in the turbine go vroom vroom
+size: 1
+hasPower: true
+powerProduction: 30.0
+requirements: [
+  copper/100
+  lead/150
+  silicon/40
+  graphite/30
+]
+category: power
+research: solar-panel

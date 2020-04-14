@@ -1,0 +1,23 @@
+{
+    "type": "OverdriveProjector",
+    "name": "Sunlight Yellow Overdrive",
+    "size": 2,
+    "health": 9999,
+    "range": 999,
+    "speedBoost": 20,
+    "phaseRangeBoost": 2,
+    "speedBoostPhase": 2,
+    "category": "effect",
+    "requirements": [
+        {"item": "copper", "amount": 1},
+    ],
+    "consumes": {
+		"power": 0,
+		"items": {
+			"items": [ {"item": "phase-fabric", "amount": 1} ],
+			"booster": true,
+			"optional": true
+		}
+	},
+    "research": "overdrive-projector"
+}
